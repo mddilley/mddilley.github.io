@@ -1,11 +1,11 @@
 # Site settings
 author: Mike Dilley
-title: 
+title: Dilley Does Dev
 header-img: img/home-bg.png
 email: mike.dilley@gmail.com
 copyright_name: Mike Dilley
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A journey in web development education
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mddilley
