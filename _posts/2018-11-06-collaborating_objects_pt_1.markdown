@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Collaborating Objects Pt. 1"
-date:       2018-11-06 17:34:22 +0000
+date:       2018-11-06 12:34:22 -0500
 permalink:  collaborating_objects_pt_1
 ---
 
@@ -59,7 +59,7 @@ A class can have its own methods which are known as class methods. The two that 
 
 **Class Variables**
 
-Class variables hold data and have class scope. The syntax for class variable is `@@variable_name`. Class variables are useful to store instances of classes. For example, a programmer could define `@@all = []` with the class definition and then add `@@all << self` to the initialize instance method (here is that `self` keyword again). These two lines of code allow the programmer to store each instance object of a class in the array, `@@all`. As mentioned above, the `self.all` method could then expose the data stored in the `@@all` class variable. This is useful in tracking what instances have been thrown into this cruel world since the class itself should be held responsible for tracking its babies (using a class method and a class variable).
+Class variables hold data and have class scope. The syntax for class variable is `@@variable_name`. Class variables are useful to store instances of classes. For example, a programmer could define `@@all = []` within the class definition and then add `@@all << self` to the initialize instance method (here is that `self` keyword again). These two lines of code allow the programmer to store each instance object of a class in the array, `@@all`. As mentioned above, the `self.all` method could then expose the data stored in the `@@all` class variable. This is useful in tracking what instances have been thrown into this cruel world since the class itself should be held responsible for tracking its babies (using a class method and a class variable).
 
 **Self**
 
