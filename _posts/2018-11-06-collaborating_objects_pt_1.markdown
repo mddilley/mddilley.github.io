@@ -85,5 +85,5 @@ Me.all
 
 and the Me class will read the data stored within the class variable, `@@all`, and return an array of all the instances of the class.
 
-These concepts are the building blocks of building multiple objects that interact and collaborate. In my next post, I'll dive further into the relationships that can be build between class objects, and I'll also write about modules and how they can extend the functionality of classes and also remove repetitive code that is common among collaborating objects.
+These concepts are the building blocks of building multiple objects that interact and collaborate. In my next post, I'll dive further into the relationships that can be built between class objects, and I'll also write about modules and how they can extend the functionality of classes and also remove repetitive code that is common among collaborating objects.
 
