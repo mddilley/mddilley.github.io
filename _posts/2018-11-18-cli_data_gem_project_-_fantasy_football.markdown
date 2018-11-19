@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "CLI Data Gem Project - Fantasy Football"
-date:       2018-11-19 00:52:43 +0000
+title:      "Fantasy Football (CLI Data Gem Project)"
+date:       2018-11-18 19:52:44 -0500
 permalink:  cli_data_gem_project_-_fantasy_football
 ---
 
