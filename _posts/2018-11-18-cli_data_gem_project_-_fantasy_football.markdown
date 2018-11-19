@@ -5,7 +5,7 @@ date:       2018-11-18 19:52:44 -0500
 permalink:  cli_data_gem_project_-_fantasy_football
 ---
 
-For my CLI project, I decided to explore a topic that is close to my heart as the NFL seasons progresses - Fantasy Football. 
+For my CLI project, I decided to explore a topic that is close to my heart as the NFL season progresses - Fantasy Football. 
 
 ![](https://thesnapfootball.files.wordpress.com/2014/08/football-fantasy-gif.gif)
 
