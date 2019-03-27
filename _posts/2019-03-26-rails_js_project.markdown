@@ -53,7 +53,7 @@ Using this path, I could write JavaScript code that depended on knowing if the c
 
 **Navigating Differences in Conventions**
 
-Another moment where the full stack mindset crept in was considering the differences in naming conventions between Ruby and JavaScript. For example, in Ruby, a variable name containing multiple words is named using snake case (`my_dog`) whereas the same variable would be named using camel case in JavaScript like (`myDog`). This could be addressed in either the property assignment for the JS class or the active model serializer on the backend. I chose the Rails side to explore a bit more about Rails serializers. I found that attribute names of the serializer class can be altered and defined as  instance methods of the class. Here is an example:
+Another moment where the full stack mindset crept in was considering the differences in naming conventions between Ruby and JavaScript. For example, in Ruby, a variable name containing multiple words is named using snake case (`my_dog`) whereas the same variable would be named using camel case in JavaScript (`myDog`). This could be addressed in either the property assignment for the JS class or the active model serializer on the backend. I chose the Rails side to explore a bit more about Rails serializers. I found that attribute names of the serializer class can be altered and defined as  instance methods of the class. Here is an example:
 
 *In dogserializer.rb,*
 ```
