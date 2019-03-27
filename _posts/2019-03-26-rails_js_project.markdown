@@ -45,9 +45,9 @@ end
 ```
 <body data-user-id="<%= current_user.id if logged_in? %>">
 ```
-*In dog.js,*
+*In play_date.js,*
 ```
-let userId = $("div.dog-show").data("uid");
+$('body').data("user-id")
 ```
 Using this path, I could write JavaScript code that depended on knowing if the current Dog or PlayDate instance (in JS) had a `belongs_to` relationship with the current user logged in.
 
