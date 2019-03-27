@@ -81,6 +81,6 @@ In this code, the attribute of the Dog model, friendly_rating is called on the o
 }
 ```
 
-This project provided many other challenges including converting times and dates formatting between Rails and JavaScript (solved with moment.js), recreating a lot of the frontend styling with JavaScript (solved using Handlebars templates and helpers), and recreating the removal of dogs from playdates using JavaScript. All of these challenges afforded me the opportunity to not only expand my skillset but also to look at features and solve problems through the lens of JavaScript. 
+This project provided many other challenges including converting time and date formatting between Rails and JavaScript (solved with moment.js), recreating a lot of the frontend styling with JavaScript (solved using Handlebars templates and helpers), and recreating the removal of dogs from playdates using JavaScript. All of these challenges afforded me the opportunity to not only expand my skillset but also to look at features and solve problems through the lens of JavaScript. 
 
 
