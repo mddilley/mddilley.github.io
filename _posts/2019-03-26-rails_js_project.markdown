@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Wagger with Javascript!"
+title:      "Wagger with JavaScript!"
 date:       2019-03-26 21:49:49 -0400
 permalink:  rails_js_project
 ---
