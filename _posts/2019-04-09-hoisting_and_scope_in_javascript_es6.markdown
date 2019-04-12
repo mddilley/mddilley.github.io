@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Hoisting and Scope in JavaScript ES6"
-date:       2019-04-09 19:19:24 +0000
+date:       2019-04-09 15:19:25 -0400
 permalink:  hoisting_and_scope_in_javascript_es6
 ---
 
@@ -65,7 +65,7 @@ console.log(cat); // Uncaught ReferenceError: cat is not defined
 console.log(person); // Uncaught ReferenceError: person is not defined
 ```
 ## Hoisting
-To begin, hoisting is a mechanism in JavaScript that moves variable and function declarations to the top of their scope. It is important to note that the only the declaration is moved and not the assignment which stays in place.
+To begin, hoisting is a mechanism in JavaScript that moves variable and function declarations to the top of their scope. It is important to note that only the declaration is moved and not the assignment which stays in place.
 
 **Hoisting Variables**
 
