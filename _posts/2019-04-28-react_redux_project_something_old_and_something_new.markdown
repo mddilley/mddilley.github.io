@@ -67,7 +67,7 @@ Lucky for me, the backend project started with the following command that made m
 rails new <project name> --api
 ```
 
-Starting a Rails project with this command starts you off with a gemfile that contains `gem '[rack-cors](https://github.com/cyu/rack-cors)'` that needs to be uncommented (then run `bundle install` in the terminal). This gem provides middleware that allows cross domain AJAX calls. Next, to configure the middleware, uncomment and edit the following lines in `config/initializers/cors.rb`.
+Starting a Rails project with this command starts you off with a gemfile that contains `gem 'rack-cors'` that needs to be uncommented (then run `bundle install` in the terminal). This [gem](https://github.com/cyu/rack-cors) provides middleware that allows cross domain AJAX calls. Next, to configure the middleware, uncomment and edit the following lines in `config/initializers/cors.rb`.
 
 ```
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
