@@ -6,9 +6,9 @@ permalink:  react_redux_project_something_old_and_something_new
 ---
 
 
-For my final project using React and Redux, I decided to create a basic version of software that I have used in many laboratories that is crucial to maintaining and distributing the product of production laboratories, a laboratory information managment system (LIMS). The purpose of my project, Oculus LIMS, is to allow a user to batch laboratory samples and assign unique identifiers to both the batch and samples contained in the batches. 
+For my final project using React and Redux, I decided to create a basic version of software that I have used in many laboratories that is crucial to maintaining and distributing the product of production laboratories, a laboratory information managment system (LIMS). The purpose of my project, **Oculus LIMS**, is to allow a user to batch laboratory samples and assign unique identifiers to both the batch and samples contained in the batches. 
 
-My first challenge was identifying my containers. I isolated two models for my backend that would also serve as containers in the React/Redux frontend: batch and sample. I planned the tree for React components as follows.
+My first challenge was identifying my containers. I isolated two models for my backend that would also serve as containers in the React/Redux frontend: **batch** and **sample**. I planned the tree for React components as follows.
 
 ```
 <App />
@@ -53,7 +53,7 @@ manageBatch(state = {batches: [], loading: false}, action){
 }
 ``` 
 
-One issue that I ran in pretty quickly once my samples portion of the application was developed was a very crowded actions file. I fixed this issue by splitting my actions to be dispatched for batch state updates and sample state updates into separate files. By organizing the actions for these two separate components, I was able to clear my thought process when writing the next and more complex steps for each component (like the asynchronous actions that would later persist and fetch data to and from the Rails API).
+One issue that I ran in pretty quickly once my samples portion of the application was developed was a very **crowded actions file**. I fixed this issue by splitting my actions to be dispatched for batch state updates and sample state updates into separate files. By organizing the actions for these two separate components, I was able to clear my thought process when writing the next and more complex steps for each component (like the asynchronous actions that would later persist and fetch data to and from the Rails API).
 
 Since this project was an opportunity to branch out, I decided to using the **[Netflix / FAST JSON API](https://github.com/Netflix/fast_jsonapi)** for data serialization in the Rails backend. I heard about this gem (along with Graphiti) at a Ruby meetup here in Austin, and I wanted to give it a shot. It ended up working out great for planning the structure of the JSON coming back to the frontend to render in the view. One cool feature that comes along with the FAST JSON API gem is key transformations. In my previous Rails and JavaScript project, I wrote code to maintain appropriate naming convention of attributes in the Rails backend and the JS frontend. FAST JSON API provides the option to transform all keys coming out of the backend from snake_case (Ruby convention) to camelCase (JS convention). I then found a package called **[Snake Case Keys](https://www.npmjs.com/package/snakecase-keys)** to use in the frontend to convert keys to snake_case. These tools helped keep the communication between frontend and backend predictable and tidy.
 
